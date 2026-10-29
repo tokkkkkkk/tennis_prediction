@@ -13,7 +13,7 @@ The project tackles match prediction as a binary classification problem, compari
 For the full methodology, mathematical formulation, and experimental results, see the **[Project Report (PDF)]**.
 
 ##
-The raw match data is not tracked in this repository due to file size. To re-run the notebook from scratch, download the historical ATP match xlsx from [here]((https://drive.google.com/drive/folders/14ytRIAsi-rZANoE9lV3VlTZeJwCllvgb?usp=sharing)) and place them in the root directory. All pre-computed outputs and plots are already saved directly in the notebook.
+The raw match data is not tracked in this repository due to file size. To re-run the notebook from scratch, download the historical ATP match xlsx from [here](https://drive.google.com/drive/folders/14ytRIAsi-rZANoE9lV3VlTZeJwCllvgb?usp=sharing)and place them in the root directory. All pre-computed outputs and plots are already saved directly in the notebook.
 
 ## Tech Stack
 
