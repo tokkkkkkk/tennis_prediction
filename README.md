@@ -10,18 +10,17 @@ The project tackles match prediction as a binary classification problem, compari
 * **Model Training & Tuning:** Benchmarking standard classifiers from `Scikit-learn` against `XGBoost` and `LightGBM`, using chronological splits to prevent data leakage from future matches.
 * **Evaluation:** Assessed via accuracy, log-loss, and ROC-AUC, along with feature importance analysis.
 
-For the full methodology, mathematical formulation, and experimental results, see the **[Project Report (PDF)](./report.pdf)**.
+For the full methodology, mathematical formulation, and experimental results, see the **[Project Report (PDF)]**.
 
 ## Tech Stack
 
-* **Language:** Python 3
+* **Language:** Python 3 (Jupyter Notebook)
 * **Libraries:** Scikit-learn, XGBoost, LightGBM, Pandas, NumPy, Matplotlib / Seaborn
 
-## Repository Structure
+## Running the Notebook
 
-```text
-├── data/               # Raw and processed ATP datasets
-├── notebooks/          # EDA, feature engineering, and training notebooks
-├── src/                # Preprocessing and model evaluation scripts
-├── report.pdf          # 5-page formal research report
-└── requirements.txt    # Python dependencies
+1. Clone the repository and install the required packages:
+   ```bash
+   git clone [https://github.com/tokkkkkkk/tennis_prediction.git](https://github.com/tokkkkkkk/tennis_prediction.git)
+   cd tennis_prediction
+   pip install scikit-learn xgboost lightgbm pandas numpy matplotlib seaborn jupyter
